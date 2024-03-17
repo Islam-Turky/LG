@@ -78,14 +78,17 @@ const Contact = () => {
                 </div>
             </div>
             <div className="iconContact">
-                <a href="tel:01558730809">
+                <a href="#">
                     <img src="/We_logo.svg" alt="" />
                 </a>
-                <a href="tel:01200718934">
+                <a href="#">
                     <img src="/Orange_logo.svg" alt="" />
                 </a>
-                <a href="tel:01284111059">
-                    <img src="/Orange_logo.svg" alt="" />
+                <a href="#">
+                    <img src="/Etisalat_Logo.svg" alt="" />
+                </a>
+                <a href="#">
+                    <img src="/Vodafone_2017_logo.svg" alt="" />
                 </a>
             </div>
         </section>
