@@ -3,6 +3,20 @@
   src: url(/Cairo-VariableFont_slnt,wght.ttf);
 }
 
+.mm{
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.divider{
+  height: 7px;
+  background-color: rgb(236, 111, 111);
+  margin: 10px auto;
+  width: 50%;
+}
+
 .mainContainer{
   margin: 10px;
   overflow: hidden;
@@ -51,7 +65,7 @@
 }
 
 #who{
-  height: 60vh;
+  /* height: 100vh; */
   padding: 10px;
   margin: 0 auto;
 }
@@ -61,8 +75,7 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  height: 100%;
-  padding: 10px;
+  gap: 50px;
 }
 
 .content .element{
@@ -71,29 +84,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.content .element div{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
+  gap: 15px;
 }
 
-.content .element div .icon {
+.content .element .icon {
   color: #111111;
   font-size: 40px;
+  color: rgb(30, 127, 255);
 }
+
 
 #Footer{
   width: 100%;
   text-align: center;
-  height: 10vh;
+  height: 40vh;
   background-color: lightgrey;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   color: black;
+}
+
+#Footer .el{
+  flex: 1;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#dv{
+  background-color: lightgrey;
+  height: 10vh;
+  color: black;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .iconContact{
@@ -185,4 +213,17 @@
 .explainbrand img{
   height: auto;
   width: 100%;
+}
+/*  */
+.pcard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.pcard img{
+  width: 100%;
+  height: auto;
 }
