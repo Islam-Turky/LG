@@ -64,24 +64,17 @@ const Home = () => {
                 </SwiperSlide>
             </Swiper>
         </Box>
-        <Box sx={{ background: 'black', height: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div>
-                <a href="tel:01558730809">
-                    <Typography variant='h5' sx={{ textAlign: 'center', fontWeight: 'bold', background: 'black', color: 'white', height: '5vh' }}>اتصل بنا تجدنا اينما كنتم 01558730809</Typography>
-                </a>
-            </div>
-        </Box>
         <Lg />
         <div className='divider' style={{ marginTop: '100px' }}></div>
         <div id='prod' style={{ marginTop: '100px' }}></div>
         <Container id="products" >
             <div className='pcard'>
-                <img src="/images (1).jpeg" alt="غسالات-كريازي" />
+                <img src="/2000_639e02ec26c7b.webp" alt="غسالات-كريازي" />
                 <Typography variant='h4' element="h3" sx={{ marginTop: '10px' }}>غسالات إل جي</Typography>
                 <div className='mm'>متدورش كتير لو غسالتك باظت انت بالمكان الصحيح لاننا اول مركز صيانة متخصص بمجال صيانة الغسالات وعشان كدا ايا يكن عطل غسالتك هتتصلح بالبيت ودة من واقع خبرتنا في مجال صيانة الغسالات لدينا فنيين متخصصين كلا في ماركة معينة مدربين علي ايدي افضل المهندسيين المتخصصين بمجال صيانة الغسالات</div>
             </div>
             <div className='pcard'>
-                <img src="/images.jpeg" alt="غسالات كريازي" />
+                <img src="/ayana-lg.jpg" alt="غسالات كريازي" />
                 <Typography variant='h4' element="h3" sx={{ marginTop: '10px' }}>ديب فريزر إل جي</Typography>
                 <div className='mm'>ليه تسيب ثلاجتك عطلانة , مع العالمية للصيانة ايا يكن عطل الثلاجة هتتصلح بالمنزل بنفس اليوم
                 مرحبا بك عزيزي العميل بمركز الصيانة الاول المتخصص في اصلاح الثلاجات افضل مركز صيانة بمصر العالمية لصيانة الاجهزة المنزلية رواد مجال الصيانة بمصر فروعنا بالقاهرة والجيزة نتميز بسرعة الصيانة لان الصيانة تتم لدينا بنفس اليوم وايضا  تتم عملية الصيانة لدينا بالمنزل بناءا علي طلب عملائنا اسعارنا تنافسية وقطع الغيار المستخدمة اصلية وكمان بضمان علي الصيانة اتصل بنا تجدنا اينما كنتم 01558730809
@@ -90,7 +83,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='pcard'>
-                <img src="/images (2).jpeg" alt="غسالات كريازي"/>
+                <img src="/download.jpeg" alt="غسالات كريازي"/>
                 <Typography variant='h4' element="h3" sx={{ marginTop: '10px' }}>تكييفات إل جي</Typography>
                 <div className="mm">يتم تصليح التكييف باحدث التقنيات العالمية المستخدمة في مجال تصليح التكييف وايضا لدينا احدث اجهزة الكشف عن الاعطال  لسرعة تحديد العطل وتغيير واستبدال قطع الغيار التالفة فقط لتوفير تكاليف الصيانة علي العميل مع الالتزام بمعايير الصيانة العالمية بمجال التكييف العالمية للصيانة هو اختيارك الامثل لصيانة التكييف</div>
             </div>

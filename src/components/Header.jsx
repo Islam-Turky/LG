@@ -93,7 +93,7 @@ return (
                 <img src="/logo-lg-100-44.svg" alt="logo" width={100}/>
             </a>
         </Typography>
-            <Typography variant='h4' sx={{ color: 'black', width: '110%', position: 'fixed', textAlign: 'center' }} >مركز صيانة إل جي</Typography>
+            <Typography variant='h5' sx={{ color: 'black', width: '110%', position: 'fixed', textAlign: 'center' }} >مركز صيانة إل جي</Typography>
         <IconButton
             aria-label="open drawer"
             edge="end"
