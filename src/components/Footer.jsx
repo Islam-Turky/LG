@@ -11,8 +11,8 @@ const Footer = () => {
                     <PhonelinkRingIcon sx={{ fontSize: '80px', color: 'rgb(30, 127, 255)' }}/>
                     <Typography variant="h5" sx={{ color: 'white', textAlign: 'center' }}>رقم الهاتف</Typography>
                     <a href="tel:01558730809" style={{ textDecoration: 'none', color: 'blue' }}><Typography variant="subtitle1">01558730809</Typography></a>
-                    <a href="tel:01558730809" style={{ textDecoration: 'none', color: 'blue' }}><Typography variant="subtitle1">01558730809</Typography></a>
-                    <a href="tel:01558730809" style={{ textDecoration: 'none', color: 'blue' }}><Typography variant="subtitle1">01558730809</Typography></a>
+                    <a href="tel:01284111059" style={{ textDecoration: 'none', color: 'blue' }}><Typography variant="subtitle1">01284111059</Typography></a>
+                    <a href="tel:01200718934" style={{ textDecoration: 'none', color: 'blue' }}><Typography variant="subtitle1">01200718934</Typography></a>
                 </div>
                 <div className="el">
                     <AccessTimeIcon sx={{ fontSize: '80px', color: 'rgb(30, 127, 255)' }}/>
